@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04EB3CCB2C67BF6E00E71D4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB3CCA2C67BF6E00E71D4E /* AppDelegate.swift */; };
+		04EB3CCF2C67BF6E00E71D4E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 04EB3CCD2C67BF6E00E71D4E /* Main.html */; };
+		04EB3CD12C67BF6E00E71D4E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 04EB3CD02C67BF6E00E71D4E /* Icon.png */; };
+		04EB3CD32C67BF6E00E71D4E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 04EB3CD22C67BF6E00E71D4E /* Style.css */; };
+		04EB3CD52C67BF6E00E71D4E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 04EB3CD42C67BF6E00E71D4E /* Script.js */; };
+		04EB3CD72C67BF6E00E71D4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB3CD62C67BF6E00E71D4E /* ViewController.swift */; };
+		04EB3CDA2C67BF6E00E71D4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04EB3CD82C67BF6E00E71D4E /* Main.storyboard */; };
+		04EB3CDC2C67BF7200E71D4E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04EB3CDB2C67BF7200E71D4E /* Assets.xcassets */; };
+		04EB3CE42C67BF7300E71D4E /* YoutubeDislike Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 04EB3CE32C67BF7300E71D4E /* YoutubeDislike Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		04EB3CE92C67BF7300E71D4E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EB3CE82C67BF7300E71D4E /* SafariWebExtensionHandler.swift */; };
+		04EB3CEC2C67BF7300E71D4E /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 04EB3CEB2C67BF7300E71D4E /* _locales */; };
+		04EB3CEE2C67BF7300E71D4E /* images in Resources */ = {isa = PBXBuildFile; fileRef = 04EB3CED2C67BF7300E71D4E /* images */; };
+		04EB3CF02C67BF7300E71D4E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 04EB3CEF2C67BF7300E71D4E /* manifest.json */; };
+		04EB3CF22C67BF7300E71D4E /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 04EB3CF12C67BF7300E71D4E /* background.js */; };
+		04EB3CF42C67BF7300E71D4E /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 04EB3CF32C67BF7300E71D4E /* content.js */; };
+		04EB3CF62C67BF7300E71D4E /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 04EB3CF52C67BF7300E71D4E /* popup.html */; };
+		04EB3CF82C67BF7300E71D4E /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 04EB3CF72C67BF7300E71D4E /* popup.css */; };
+		04EB3CFA2C67BF7300E71D4E /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 04EB3CF92C67BF7300E71D4E /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04EB3CE52C67BF7300E71D4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04EB3CBF2C67BF6E00E71D4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04EB3CE22C67BF7300E71D4E;
+			remoteInfo = "YoutubeDislike Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		04EB3D022C67BF7300E71D4E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				04EB3CE42C67BF7300E71D4E /* YoutubeDislike Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		04EB3CC72C67BF6E00E71D4E /* YoutubeDislike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeDislike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EB3CCA2C67BF6E00E71D4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		04EB3CCE2C67BF6E00E71D4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		04EB3CD02C67BF6E00E71D4E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		04EB3CD22C67BF6E00E71D4E /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		04EB3CD42C67BF6E00E71D4E /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		04EB3CD62C67BF6E00E71D4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04EB3CD92C67BF6E00E71D4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04EB3CDB2C67BF7200E71D4E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04EB3CDD2C67BF7200E71D4E /* YoutubeDislike.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YoutubeDislike.entitlements; sourceTree = "<group>"; };
+		04EB3CDE2C67BF7200E71D4E /* YoutubeDislike.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YoutubeDislike.entitlements; sourceTree = "<group>"; };
+		04EB3CE32C67BF7300E71D4E /* YoutubeDislike Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "YoutubeDislike Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04EB3CE82C67BF7300E71D4E /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		04EB3CEB2C67BF7300E71D4E /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		04EB3CED2C67BF7300E71D4E /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		04EB3CEF2C67BF7300E71D4E /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		04EB3CF12C67BF7300E71D4E /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		04EB3CF32C67BF7300E71D4E /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		04EB3CF52C67BF7300E71D4E /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		04EB3CF72C67BF7300E71D4E /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		04EB3CF92C67BF7300E71D4E /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		04EB3CFB2C67BF7300E71D4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04EB3CFC2C67BF7300E71D4E /* YoutubeDislike_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = YoutubeDislike_Extension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04EB3CC42C67BF6E00E71D4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EB3CE02C67BF7300E71D4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04EB3CBE2C67BF6E00E71D4E = {
+			isa = PBXGroup;
+			children = (
+				04EB3CC92C67BF6E00E71D4E /* YoutubeDislike */,
+				04EB3CE72C67BF7300E71D4E /* YoutubeDislike Extension */,
+				04EB3CC82C67BF6E00E71D4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04EB3CC82C67BF6E00E71D4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04EB3CC72C67BF6E00E71D4E /* YoutubeDislike.app */,
+				04EB3CE32C67BF7300E71D4E /* YoutubeDislike Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04EB3CC92C67BF6E00E71D4E /* YoutubeDislike */ = {
+			isa = PBXGroup;
+			children = (
+				04EB3CCA2C67BF6E00E71D4E /* AppDelegate.swift */,
+				04EB3CD62C67BF6E00E71D4E /* ViewController.swift */,
+				04EB3CD82C67BF6E00E71D4E /* Main.storyboard */,
+				04EB3CDB2C67BF7200E71D4E /* Assets.xcassets */,
+				04EB3CDD2C67BF7200E71D4E /* YoutubeDislike.entitlements */,
+				04EB3CDE2C67BF7200E71D4E /* YoutubeDislike.entitlements */,
+				04EB3CCC2C67BF6E00E71D4E /* Resources */,
+			);
+			path = YoutubeDislike;
+			sourceTree = "<group>";
+		};
+		04EB3CCC2C67BF6E00E71D4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04EB3CCD2C67BF6E00E71D4E /* Main.html */,
+				04EB3CD02C67BF6E00E71D4E /* Icon.png */,
+				04EB3CD22C67BF6E00E71D4E /* Style.css */,
+				04EB3CD42C67BF6E00E71D4E /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04EB3CE72C67BF7300E71D4E /* YoutubeDislike Extension */ = {
+			isa = PBXGroup;
+			children = (
+				04EB3CE82C67BF7300E71D4E /* SafariWebExtensionHandler.swift */,
+				04EB3CFB2C67BF7300E71D4E /* Info.plist */,
+				04EB3CFC2C67BF7300E71D4E /* YoutubeDislike_Extension.entitlements */,
+				04EB3CEA2C67BF7300E71D4E /* Resources */,
+			);
+			path = "YoutubeDislike Extension";
+			sourceTree = "<group>";
+		};
+		04EB3CEA2C67BF7300E71D4E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04EB3CEB2C67BF7300E71D4E /* _locales */,
+				04EB3CED2C67BF7300E71D4E /* images */,
+				04EB3CEF2C67BF7300E71D4E /* manifest.json */,
+				04EB3CF12C67BF7300E71D4E /* background.js */,
+				04EB3CF32C67BF7300E71D4E /* content.js */,
+				04EB3CF52C67BF7300E71D4E /* popup.html */,
+				04EB3CF72C67BF7300E71D4E /* popup.css */,
+				04EB3CF92C67BF7300E71D4E /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04EB3CC62C67BF6E00E71D4E /* YoutubeDislike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EB3D032C67BF7300E71D4E /* Build configuration list for PBXNativeTarget "YoutubeDislike" */;
+			buildPhases = (
+				04EB3CC32C67BF6E00E71D4E /* Sources */,
+				04EB3CC42C67BF6E00E71D4E /* Frameworks */,
+				04EB3CC52C67BF6E00E71D4E /* Resources */,
+				04EB3D022C67BF7300E71D4E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04EB3CE62C67BF7300E71D4E /* PBXTargetDependency */,
+			);
+			name = YoutubeDislike;
+			productName = YoutubeDislike;
+			productReference = 04EB3CC72C67BF6E00E71D4E /* YoutubeDislike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04EB3CE22C67BF7300E71D4E /* YoutubeDislike Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04EB3CFF2C67BF7300E71D4E /* Build configuration list for PBXNativeTarget "YoutubeDislike Extension" */;
+			buildPhases = (
+				04EB3CDF2C67BF7300E71D4E /* Sources */,
+				04EB3CE02C67BF7300E71D4E /* Frameworks */,
+				04EB3CE12C67BF7300E71D4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YoutubeDislike Extension";
+			productName = "YoutubeDislike Extension";
+			productReference = 04EB3CE32C67BF7300E71D4E /* YoutubeDislike Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04EB3CBF2C67BF6E00E71D4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					04EB3CC62C67BF6E00E71D4E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					04EB3CE22C67BF7300E71D4E = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 04EB3CC22C67BF6E00E71D4E /* Build configuration list for PBXProject "YoutubeDislike" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04EB3CBE2C67BF6E00E71D4E;
+			productRefGroup = 04EB3CC82C67BF6E00E71D4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04EB3CC62C67BF6E00E71D4E /* YoutubeDislike */,
+				04EB3CE22C67BF7300E71D4E /* YoutubeDislike Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04EB3CC52C67BF6E00E71D4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EB3CD12C67BF6E00E71D4E /* Icon.png in Resources */,
+				04EB3CDA2C67BF6E00E71D4E /* Main.storyboard in Resources */,
+				04EB3CD52C67BF6E00E71D4E /* Script.js in Resources */,
+				04EB3CCF2C67BF6E00E71D4E /* Main.html in Resources */,
+				04EB3CDC2C67BF7200E71D4E /* Assets.xcassets in Resources */,
+				04EB3CD32C67BF6E00E71D4E /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EB3CE12C67BF7300E71D4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EB3CF22C67BF7300E71D4E /* background.js in Resources */,
+				04EB3CF82C67BF7300E71D4E /* popup.css in Resources */,
+				04EB3CF62C67BF7300E71D4E /* popup.html in Resources */,
+				04EB3CEE2C67BF7300E71D4E /* images in Resources */,
+				04EB3CF02C67BF7300E71D4E /* manifest.json in Resources */,
+				04EB3CEC2C67BF7300E71D4E /* _locales in Resources */,
+				04EB3CF42C67BF7300E71D4E /* content.js in Resources */,
+				04EB3CFA2C67BF7300E71D4E /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04EB3CC32C67BF6E00E71D4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EB3CD72C67BF6E00E71D4E /* ViewController.swift in Sources */,
+				04EB3CCB2C67BF6E00E71D4E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04EB3CDF2C67BF7300E71D4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EB3CE92C67BF7300E71D4E /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04EB3CE62C67BF7300E71D4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04EB3CE22C67BF7300E71D4E /* YoutubeDislike Extension */;
+			targetProxy = 04EB3CE52C67BF7300E71D4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		04EB3CCD2C67BF6E00E71D4E /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EB3CCE2C67BF6E00E71D4E /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		04EB3CD82C67BF6E00E71D4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04EB3CD92C67BF6E00E71D4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04EB3CFD2C67BF7300E71D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		04EB3CFE2C67BF7300E71D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		04EB3D002C67BF7300E71D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "YoutubeDislike Extension/YoutubeDislike_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M6QR3D69CX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YoutubeDislike Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "YoutubeDislike Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bouzid.YoutubeDislike.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04EB3D012C67BF7300E71D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "YoutubeDislike Extension/YoutubeDislike_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M6QR3D69CX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "YoutubeDislike Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "YoutubeDislike Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bouzid.YoutubeDislike.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		04EB3D042C67BF7300E71D4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = YoutubeDislike/YoutubeDislike.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M6QR3D69CX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = YoutubeDislike;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bouzid.YoutubeDislike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		04EB3D052C67BF7300E71D4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = YoutubeDislike/YoutubeDislike.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M6QR3D69CX;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = YoutubeDislike;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bouzid.YoutubeDislike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04EB3CC22C67BF6E00E71D4E /* Build configuration list for PBXProject "YoutubeDislike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EB3CFD2C67BF7300E71D4E /* Debug */,
+				04EB3CFE2C67BF7300E71D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EB3CFF2C67BF7300E71D4E /* Build configuration list for PBXNativeTarget "YoutubeDislike Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EB3D002C67BF7300E71D4E /* Debug */,
+				04EB3D012C67BF7300E71D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04EB3D032C67BF7300E71D4E /* Build configuration list for PBXNativeTarget "YoutubeDislike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04EB3D042C67BF7300E71D4E /* Debug */,
+				04EB3D052C67BF7300E71D4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04EB3CBF2C67BF6E00E71D4E /* Project object */;
+}
