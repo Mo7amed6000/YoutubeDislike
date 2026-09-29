@@ -48,4 +48,5 @@ Behavior options for the content script live at the top of `YoutubeDislike Exten
 
 ## License
 
-No license file is included yet. If you publish this repo, add a `LICENSE` and ensure it is compatible with Return YouTube Dislike’s terms if you redistribute their script.
+This project is licensed under the MIT License.
+You are free to use, modify, and distribute this project, provided that the original copyright notice and license are retained.
